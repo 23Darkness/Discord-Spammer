@@ -5,7 +5,7 @@ Advanced Discord Spammer with multiple options
 
 **Installation**
 
-```pip install requirement
+```pip install requirement```
 
 **Tokens**
 ```OTkzMTkzNDUyMzcwMTQ5Mzk2.GrWj24.zPSCSRDbkN247wAkG2siuZfmG_0GDJI3D9FKUo
