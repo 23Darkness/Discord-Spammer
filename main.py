@@ -1,26 +1,25 @@
-import colorama
-from multiprocessing.connection import wait
-from optparse import Option
-import os, time, json, random, base64, threading, re, sys
-from socket import timeout
-from tkinter import N
-try: import requests, colorama, cursor; from capmonster_python import HCaptchaTask
-except: os.system('pip install -q capmonster-python websocket requests colorama cursor')
-import requests, colorama, cursor; from capmonster_python import HCaptchaTask
-from colorama import *
-from pystyle import Colors, Colorate
-import hashlib
-import time, os
+import shutil
 import os
+import time
+import json
+import random
+import base64
+import threading
+import re
+import subprocess
+import sys
+import colorama
+import cursor
 import re
 import json
-import requests
-import os
-import requests
-from tkinter import *
-from tkinter.filedialog import *
+from socket import timeout
+from multiprocessing.connection import wait
+from optparse import Option
+import requests, colorama, shutil, subprocess, cursor, os, time, json, random, base64, threading, re, sys;
+from capmonster_python import HCaptchaTask
+from colorama import Fore, Style, init
+from pystyle import *
 from urllib.request import Request, urlopen
-import discord
 
 
 print(Fore.BLUE + """
@@ -35,10 +34,7 @@ print(Fore.BLUE + """
  ░           ░      ░   ░              ░  ░    ░   ░      ░ ░   ░           ░    ░  ░   ░     
                    ░                                                                          
 """)
-confir = Write.Input(
-        "© Copyright                 › Press Enter...",
-        Colors.blue_to_red,
-        interval=0.05)
+
 
 print("1 - Token Joiner")
 print("2 - Spammer")
